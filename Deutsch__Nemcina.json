@@ -1202,20 +1202,6 @@
             "guid": "xetpA5-0rV", 
             "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
             "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "test", 
-                "test"
-            ], 
-            "flags": 0, 
-            "guid": "Ch.<{~fGjI", 
-            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
-            "tags": [
-                "Stevo"
-            ]
         }
     ]
 }
