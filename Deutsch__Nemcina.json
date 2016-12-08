@@ -1,0 +1,1221 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "24ce7b8f-bd1a-11e6-b2c5-54ee758f92a0", 
+    "deck_config_uuid": "24ce7b90-bd1a-11e6-812b-54ee758f92a0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "24ce7b90-bd1a-11e6-812b-54ee758f92a0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    2, 
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.25
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    0.0500000007451, 
+                    0.449999988079, 
+                    2, 
+                    10, 
+                    60, 
+                    300
+                ], 
+                "initialFactor": 3500, 
+                "ints": [
+                    1, 
+                    1
+                ], 
+                "order": 0, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 2.0, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 180, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 30, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": 1469979315130, 
+    "name": "Deutsch::Nemcina", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "24cef0c0-bd1a-11e6-aa6e-54ee758f92a0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic-9f14a", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Liberation Sans", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Liberation Sans", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic (and reversed card)", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "Stevo"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Card 2", 
+                    "ord": 1, 
+                    "qfmt": "{{Back}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "štít", 
+                "schirm"
+            ], 
+            "flags": 0, 
+            "guid": "JA:3OFLEF_", 
+            "note_model_uuid": "24cef0c0-bd1a-11e6-aa6e-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "spoluobčan", 
+                "mitburger"
+            ], 
+            "flags": 0, 
+            "guid": "iGbgvcX|dY", 
+            "note_model_uuid": "24cef0c0-bd1a-11e6-aa6e-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "lenivý", 
+                "faul"
+            ], 
+            "flags": 0, 
+            "guid": "zXW+4f7?Tb", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "him", 
+                "ihm"
+            ], 
+            "flags": 0, 
+            "guid": "CFdE&{fLsX", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "k", 
+                "zu"
+            ], 
+            "flags": 0, 
+            "guid": "N(71fH+biR", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "hnoj", 
+                "mist"
+            ], 
+            "flags": 0, 
+            "guid": "V?QU9K%=M", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fehig", 
+                "schopný"
+            ], 
+            "flags": 0, 
+            "guid": "y~nPha/MqX", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aushalten", 
+                "vydržať"
+            ], 
+            "flags": 0, 
+            "guid": "HfPnpV<mcY", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "verhoren, verfahren, verrechnen", 
+                "prepočuť, precestovať/stratiť sa, prerátať sa"
+            ], 
+            "flags": 0, 
+            "guid": "Ichl%:n}I*", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vorteil", 
+                "výhoda"
+            ], 
+            "flags": 0, 
+            "guid": "MsjaE^w;^d", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "nachteil", 
+                "nevýhoda"
+            ], 
+            "flags": 0, 
+            "guid": "qS^vI#sQkG", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "werbung", 
+                "reklama"
+            ], 
+            "flags": 0, 
+            "guid": "Jzuo~7tP11", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "rýchlost", 
+                "geschwindigkeit"
+            ], 
+            "flags": 0, 
+            "guid": "o:~cPemWrg", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "entweder - oder", 
+                "buď - alebo A XOR B"
+            ], 
+            "flags": 0, 
+            "guid": "b9+h1HKF(k", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sowohl - auch", 
+                "aj - aj A & B"
+            ], 
+            "flags": 0, 
+            "guid": "Q@O]KbKRjS", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "weder - noch", 
+                "ani - ani A' &amp; B'"
+            ], 
+            "flags": 0, 
+            "guid": "OColheEH/(", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "povodeň", 
+                "Flut"
+            ], 
+            "flags": 0, 
+            "guid": "oxUVgu*os/", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "erwahnt", 
+                "bolo spomenuté"
+            ], 
+            "flags": 0, 
+            "guid": "B*~oY8fv<x", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ja", 
+                "predsa"
+            ], 
+            "flags": 0, 
+            "guid": "l:fJ/xk*cC", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Médium (prostriedok)", 
+                "Mittel"
+            ], 
+            "flags": 0, 
+            "guid": "El.R{?3u*A", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "betrieb", 
+                "prevádzkovať"
+            ], 
+            "flags": 0, 
+            "guid": "P+TCf]Ow~X", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Laub", 
+                "lístie"
+            ], 
+            "flags": 0, 
+            "guid": "f)d0^BY]es", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Bläser", 
+                "fúkač"
+            ], 
+            "flags": 0, 
+            "guid": "k<41;Bk[j4", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "zerlegen", 
+                "rozložiť"
+            ], 
+            "flags": 0, 
+            "guid": "g$9U,@JpN>", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "jeseň", 
+                "der Herbst"
+            ], 
+            "flags": 0, 
+            "guid": "sIAy)&zU[E", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Lärm", 
+                "hluk"
+            ], 
+            "flags": 0, 
+            "guid": "hs05Gqn`Nz", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Verwendung", 
+                "aplikácia"
+            ], 
+            "flags": 0, 
+            "guid": "CbL}s6-(vX", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Verkehr", 
+                "transport"
+            ], 
+            "flags": 0, 
+            "guid": "HLo,7;+hj.", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Besen", 
+                "zmetak"
+            ], 
+            "flags": 0, 
+            "guid": "Nnk+*d^AN8", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "der Rechen", 
+                "tie hrable"
+            ], 
+            "flags": 0, 
+            "guid": "CZ&%2nxli@", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "die Pest", 
+                "čierna smrť (mor)"
+            ], 
+            "flags": 0, 
+            "guid": "A7RnYm$trh", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "feucht", 
+                "vlhko, mokro"
+            ], 
+            "flags": 0, 
+            "guid": "zOd>?7k6gC", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "trocken", 
+                "sucho"
+            ], 
+            "flags": 0, 
+            "guid": "g4uWAw4eh3", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "orech", 
+                "walnuss baum"
+            ], 
+            "flags": 0, 
+            "guid": "L6j%M6D>@Z", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ja 4 pády", 
+                "ich, meiner, mir, mich"
+            ], 
+            "flags": 0, 
+            "guid": "JfDv.l&#gb", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ty 4 pády", 
+                "du, deiner, dir, dich"
+            ], 
+            "flags": 0, 
+            "guid": "fJXGeP=fA;", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "on 4 pády", 
+                "er, seiner, ihm, ihn"
+            ], 
+            "flags": 0, 
+            "guid": "iC7O3{36lY", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ona 4 pády", 
+                "sie, ihrer, ihr, sie"
+            ], 
+            "flags": 0, 
+            "guid": "G]|:#ZSBu-", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ono 4 pády", 
+                "es, seiner, ihm, es"
+            ], 
+            "flags": 0, 
+            "guid": "i=,8o{-=Z(", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "my 4 pády", 
+                "wir, unser, uns, uns"
+            ], 
+            "flags": 0, 
+            "guid": "kwgcJ9?yNh", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vy 4 pády", 
+                "ihr, euer, euch, euch"
+            ], 
+            "flags": 0, 
+            "guid": "mm/<t2QM?L", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "oni 4 pády", 
+                "sie, ihrer, ihnen, sie"
+            ], 
+            "flags": 0, 
+            "guid": "v1J+WyDQ1s", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Vy 4 pády", 
+                "Sie, Ihrer, Ihnen, Sie"
+            ], 
+            "flags": 0, 
+            "guid": "OlhYEv:q>q", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "rod: Herbst", 
+                "der"
+            ], 
+            "flags": 0, 
+            "guid": "qWGT%jn|YO", 
+            "note_model_uuid": "24cf3f0b-bd1a-11e6-9715-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Wessen?", 
+                "Koho? Čí?"
+            ], 
+            "flags": 0, 
+            "guid": "gr6%vP!&&P", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Wem?", 
+                "Komu?"
+            ], 
+            "flags": 0, 
+            "guid": "b^HFAn_Ib6", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Wen?", 
+                "Koho?"
+            ], 
+            "flags": 0, 
+            "guid": "i7&$2P<ddl", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "strach ochromí život", 
+                "angst lähmt das Leben"
+            ], 
+            "flags": 0, 
+            "guid": "c%UI}kYy/#", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "spoločnosť žiada", 
+                "Gesellshaft das fordern"
+            ], 
+            "flags": 0, 
+            "guid": "b?H|*Bt?@H", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "gruender", 
+                "zakladateľ"
+            ], 
+            "flags": 0, 
+            "guid": "tj^J-7}oty", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "scheitern", 
+                "zlyhanie"
+            ], 
+            "flags": 0, 
+            "guid": "L>2&,s3i;n", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "der Adel", 
+                "šlachtic"
+            ], 
+            "flags": 0, 
+            "guid": "dc#?XT]9@1", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "mitzuteilen", 
+                "zdeliť"
+            ], 
+            "flags": 0, 
+            "guid": "wqZj-KA<s3", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "wurzel", 
+                "koreň"
+            ], 
+            "flags": 0, 
+            "guid": "wYNZF`~h?x", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "diera (údolie)", 
+                "das Loch"
+            ], 
+            "flags": 0, 
+            "guid": "Rb<8j--9F;", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "dovoliť", 
+                "erlaub"
+            ], 
+            "flags": 0, 
+            "guid": "q^K6fOoNEu", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "skončiť úspešne", 
+                "abgeschlossen"
+            ], 
+            "flags": 0, 
+            "guid": "HZE2e(ER>D", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "zaľúbiť sa", 
+                "verliebt"
+            ], 
+            "flags": 0, 
+            "guid": "xB_wYRXh4!", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aufhoeren", 
+                "ukončiť - už o tom nechcem počuť :D"
+            ], 
+            "flags": 0, 
+            "guid": "L#9EJN;|[3", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vo všeobecnosti", 
+                "allgemein"
+            ], 
+            "flags": 0, 
+            "guid": "J;Lj)(C=8P", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Haibecken", 
+                "žralok"
+            ], 
+            "flags": 0, 
+            "guid": "n.d]_;jbcv", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aufzug", 
+                "výťah"
+            ], 
+            "flags": 0, 
+            "guid": "w#h9+4eKB(", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vom/ab Montag", 
+                "od minulého/budúceho pondelka"
+            ], 
+            "flags": 0, 
+            "guid": "Cbuog$^6G>", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "potulovať sa", 
+                "bumeln"
+            ], 
+            "flags": 0, 
+            "guid": "mV0LVG$}6*", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "stĺpec", 
+                "spalte"
+            ], 
+            "flags": 0, 
+            "guid": "g<@v*b2Emm", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "storch", 
+                "bocian"
+            ], 
+            "flags": 0, 
+            "guid": "r3/~EJDb3@", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "einschänken", 
+                "naliať"
+            ], 
+            "flags": 0, 
+            "guid": "syCL5$;ke+", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "von sich preisgeben", 
+                "odhaliť o sebe"
+            ], 
+            "flags": 0, 
+            "guid": "P{?6K~gpJ.", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "seltem - Gelegenheit selten knopft zweimal.", 
+                "seldom - Opportunity seldom knocks twice."
+            ], 
+            "flags": 0, 
+            "guid": "D+RZ1@;hg3", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "schänke", 
+                "krčmička (s krbom a dreveným vybavením)"
+            ], 
+            "flags": 0, 
+            "guid": "CKKTG?>?Vu", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "e/pro/in - jection&nbsp;", 
+                "throw out/for/in"
+            ], 
+            "flags": 0, 
+            "guid": "eH!n(q!A:W", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Überwindung", 
+                "prekonávanie"
+            ], 
+            "flags": 0, 
+            "guid": "x>I|4[Gt2m", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Vorhänge", 
+                "opona"
+            ], 
+            "flags": 0, 
+            "guid": "gw^&(G|gE}", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "der Wirt", 
+                "hostiteľ"
+            ], 
+            "flags": 0, 
+            "guid": "JK0Rs3&$8t", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "nickt", 
+                "prikývnuť"
+            ], 
+            "flags": 0, 
+            "guid": "zvhoLcg,w>", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Kneipe", 
+                "krčma"
+            ], 
+            "flags": 0, 
+            "guid": "D;Nvj~l&Qq", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Beizl", 
+                "Pajzel"
+            ], 
+            "flags": 0, 
+            "guid": "e3XKS{6qr}", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Heim - Heizl", 
+                "Home - Hajzel :D"
+            ], 
+            "flags": 0, 
+            "guid": "xtEj8_uYC3", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ktorý, ktorá, ktoré", 
+                "der, die, das"
+            ], 
+            "flags": 0, 
+            "guid": "KS_+v;PuU7", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "verschiedene", 
+                "niekoľko"
+            ], 
+            "flags": 0, 
+            "guid": "xetpA5-0rV", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "test", 
+                "test"
+            ], 
+            "flags": 0, 
+            "guid": "Ch.<{~fGjI", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": [
+                "Stevo"
+            ]
+        }
+    ]
+}
