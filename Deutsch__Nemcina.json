@@ -137,6 +137,15 @@
                     "rtl": false, 
                     "size": 20, 
                     "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Audio", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
                 }
             ], 
             "latexPost": "\\end{document}", 
@@ -155,7 +164,7 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Audio}}\n{{Back}}\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -211,9 +220,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "Stevo"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
@@ -656,7 +663,8 @@
             "data": "", 
             "fields": [
                 "ja 4 pády", 
-                "ich, meiner, mir, mich"
+                "ich, meiner, mir, mich", 
+                ""
             ], 
             "flags": 0, 
             "guid": "JfDv.l&#gb", 
@@ -668,7 +676,8 @@
             "data": "", 
             "fields": [
                 "ty 4 pády", 
-                "du, deiner, dir, dich"
+                "du, deiner, dir, dich", 
+                ""
             ], 
             "flags": 0, 
             "guid": "fJXGeP=fA;", 
@@ -680,7 +689,8 @@
             "data": "", 
             "fields": [
                 "on 4 pády", 
-                "er, seiner, ihm, ihn"
+                "er, seiner, ihm, ihn", 
+                ""
             ], 
             "flags": 0, 
             "guid": "iC7O3{36lY", 
@@ -692,7 +702,8 @@
             "data": "", 
             "fields": [
                 "ona 4 pády", 
-                "sie, ihrer, ihr, sie"
+                "sie, ihrer, ihr, sie", 
+                ""
             ], 
             "flags": 0, 
             "guid": "G]|:#ZSBu-", 
@@ -704,7 +715,8 @@
             "data": "", 
             "fields": [
                 "ono 4 pády", 
-                "es, seiner, ihm, es"
+                "es, seiner, ihm, es", 
+                ""
             ], 
             "flags": 0, 
             "guid": "i=,8o{-=Z(", 
@@ -716,7 +728,8 @@
             "data": "", 
             "fields": [
                 "my 4 pády", 
-                "wir, unser, uns, uns"
+                "wir, unser, uns, uns", 
+                ""
             ], 
             "flags": 0, 
             "guid": "kwgcJ9?yNh", 
@@ -728,7 +741,8 @@
             "data": "", 
             "fields": [
                 "vy 4 pády", 
-                "ihr, euer, euch, euch"
+                "ihr, euer, euch, euch", 
+                ""
             ], 
             "flags": 0, 
             "guid": "mm/<t2QM?L", 
@@ -740,7 +754,8 @@
             "data": "", 
             "fields": [
                 "oni 4 pády", 
-                "sie, ihrer, ihnen, sie"
+                "sie, ihrer, ihnen, sie", 
+                ""
             ], 
             "flags": 0, 
             "guid": "v1J+WyDQ1s", 
@@ -752,7 +767,8 @@
             "data": "", 
             "fields": [
                 "Vy 4 pády", 
-                "Sie, Ihrer, Ihnen, Sie"
+                "Sie, Ihrer, Ihnen, Sie", 
+                ""
             ], 
             "flags": 0, 
             "guid": "OlhYEv:q>q", 
@@ -764,7 +780,8 @@
             "data": "", 
             "fields": [
                 "rod: Herbst", 
-                "der"
+                "der", 
+                ""
             ], 
             "flags": 0, 
             "guid": "qWGT%jn|YO", 
@@ -1172,7 +1189,7 @@
             "data": "", 
             "fields": [
                 "Heim - Heizl", 
-                "Home - Hajzel :D"
+                "domov - domček (Hajzel domček :D)"
             ], 
             "flags": 0, 
             "guid": "xtEj8_uYC3", 
@@ -1200,6 +1217,390 @@
             ], 
             "flags": 0, 
             "guid": "xetpA5-0rV", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fordern", 
+                "žiadať"
+            ], 
+            "flags": 0, 
+            "guid": "prPKU{Z04f", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "čím viac ..., tým viac ...", 
+                "Je mehr ..., desto mehr ..."
+            ], 
+            "flags": 0, 
+            "guid": "M&7;iMUS0K", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "od", 
+                "ab"
+            ], 
+            "flags": 0, 
+            "guid": "Nip@}*}&R{", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "skúšať", 
+                "probieren"
+            ], 
+            "flags": 0, 
+            "guid": "hZ+<N-A0du", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "schwächen", 
+                "oslabiť"
+            ], 
+            "flags": 0, 
+            "guid": "j.45HFWObc", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vermessung", 
+                "meranie"
+            ], 
+            "flags": 0, 
+            "guid": "rb;fXx:<I;", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Strafe", 
+                "pokuta"
+            ], 
+            "flags": 0, 
+            "guid": "b`DS<%>la=", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bilig / guenstig", 
+                "lacný / výhodný"
+            ], 
+            "flags": 0, 
+            "guid": "KE6s1{E-Si", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "voľba", 
+                "Entscheidung"
+            ], 
+            "flags": 0, 
+            "guid": "Ip0z_<WkWq", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "leather", 
+                "Leder"
+            ], 
+            "flags": 0, 
+            "guid": "s`JiYX#ofq", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "lustig", 
+                "veselý"
+            ], 
+            "flags": 0, 
+            "guid": "cAy-{LARn%", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Erkennungszeichen", 
+                "poznávacie znamenie"
+            ], 
+            "flags": 0, 
+            "guid": "Dj2zhf~eD|", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "niemals", 
+                "nikdy"
+            ], 
+            "flags": 0, 
+            "guid": "rn1<e/^~Co", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "langweilig", 
+                "nudný"
+            ], 
+            "flags": 0, 
+            "guid": "BH&Xg4+Lub", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Es wird sukzessive besser.", 
+                "Bude to postupne lepšie."
+            ], 
+            "flags": 0, 
+            "guid": "Pnowp:3oo]", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "kündigen", 
+                "vypovedať"
+            ], 
+            "flags": 0, 
+            "guid": "f]y}7-_=|E", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "knapp", 
+                "tesno"
+            ], 
+            "flags": 0, 
+            "guid": "eZ9ss%5LJ2", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "unternehmer", 
+                "podnájomca"
+            ], 
+            "flags": 0, 
+            "guid": "c=tC+5hH;H", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "podnájomník", 
+                "Untermieter"
+            ], 
+            "flags": 0, 
+            "guid": "wY5GKO#SX0", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vermieter", 
+                "prenajímateľ"
+            ], 
+            "flags": 0, 
+            "guid": "bnQ9Y$q+S2", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "abschnit", 
+                "odstavec"
+            ], 
+            "flags": 0, 
+            "guid": "oSdEAoA;(k", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "scheidern", 
+                "separátor"
+            ], 
+            "flags": 0, 
+            "guid": "i45q!0KK{>", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "die Anreize", 
+                "podnety"
+            ], 
+            "flags": 0, 
+            "guid": "vZ{2>~rh6>", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "beten / gebetet", 
+                "modliť sa"
+            ], 
+            "flags": 0, 
+            "guid": "j{Po[5+=L,", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "betten / gebettet", 
+                "ustieľať"
+            ], 
+            "flags": 0, 
+            "guid": "q7{$b<;}rS", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "betteln /&nbsp;gebettelt", 
+                "žobrať"
+            ], 
+            "flags": 0, 
+            "guid": "mnK,~R&Kjm", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bitten / gebeten", 
+                "prosiť"
+            ], 
+            "flags": 0, 
+            "guid": "OJPzS:+/F=", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bieten /&nbsp;geboten", 
+                "ponuka"
+            ], 
+            "flags": 0, 
+            "guid": "f9mH6s5wD=", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "gross", 
+                "grand"
+            ], 
+            "flags": 0, 
+            "guid": "FV=/-IoKE|", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "erwachsen", 
+                "dospelý, rast"
+            ], 
+            "flags": 0, 
+            "guid": "hw)4VyGC5A", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "herum ...", 
+                "bezcielne ..."
+            ], 
+            "flags": 0, 
+            "guid": "NYN>)C:<^o", 
+            "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "doppelte", 
+                "dupľovať"
+            ], 
+            "flags": 0, 
+            "guid": "NP.Utic>%h", 
             "note_model_uuid": "24cf17d2-bd1a-11e6-a48d-54ee758f92a0", 
             "tags": []
         }
